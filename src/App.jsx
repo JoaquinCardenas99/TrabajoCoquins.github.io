@@ -5,6 +5,7 @@ import SobreMi from "./componentes/SobreMi";
 import Estudios from "./componentes/Estudios";
 import Habilidades from "./componentes/Habilidades";
 import "./App.css";
+import Proyectos from "./componentes/Proyectos";
 
 function App() {
   return (
@@ -17,10 +18,7 @@ function App() {
         <Estudios />
         <Habilidades />
 
-        <section id="proyectos" className="seccion">
-          <h2>Mis Proyectos</h2>
-          <p>Próximamente agregaremos los proyectos originales.</p>
-        </section>
+        <Proyectos />
 
         <section id="experiencia" className="seccion gris">
           <h2>Experiencia</h2>
