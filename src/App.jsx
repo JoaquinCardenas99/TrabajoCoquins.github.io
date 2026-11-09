@@ -6,6 +6,8 @@ import Estudios from "./componentes/Estudios";
 import Habilidades from "./componentes/Habilidades";
 import "./App.css";
 import Proyectos from "./componentes/Proyectos";
+import Experiencia from "./componentes/Experiencia";
+import Contacto from "./componentes/Contacto";
 
 function App() {
   return (
@@ -17,20 +19,11 @@ function App() {
         <SobreMi />
         <Estudios />
         <Habilidades />
-
         <Proyectos />
+        <Experiencia />
+        <Contacto />
 
-        <section id="experiencia" className="seccion gris">
-          <h2>Experiencia</h2>
-          <p>Próximamente agregaremos mi experiencia.</p>
-        </section>
-
-        <section id="contacto" className="seccion">
-          <h2>Contacto</h2>
-          <p>Próximamente agregaremos el formulario de contacto.</p>
-        </section>
       </main>
-
       <footer>
         <p>Joaquín Cárdenas - Portafolio</p>
         <p>Ingeniería en Informática - Duoc UC</p>
