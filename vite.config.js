@@ -6,6 +6,8 @@ export default defineConfig({
   plugins: [react()],
   plugins: [react()],
 
+  base: "/TrabajoCoquins.github.io/",
+
   test: {
     environment: "jsdom",
     globals: true,
