@@ -8,6 +8,7 @@ import "./App.css";
 import Proyectos from "./componentes/Proyectos";
 import Experiencia from "./componentes/Experiencia";
 import Contacto from "./componentes/Contacto";
+import RepositoriosGitHub from "./componentes/RepositoriosGitHub";
 
 function App() {
   return (
@@ -20,8 +21,10 @@ function App() {
         <Estudios />
         <Habilidades />
         <Proyectos />
+        <RepositoriosGitHub />
         <Experiencia />
         <Contacto />
+ 
 
       </main>
       <footer>
