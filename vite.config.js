@@ -16,7 +16,6 @@ export default defineConfig({
       reporter: ["text", "html"],
       include: [
         "src/componentes/**/*.{js,jsx}",
-        "src/servicios/**/*.{js,jsx}",
         "src/Servicios/**/*.{js,jsx}"
       ]
     }
