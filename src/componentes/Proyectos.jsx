@@ -46,14 +46,20 @@ function Proyectos() {
         durante mi formación en Ingeniería en Informática.
       </p>
 
-      <div className="proyectos-grid">
-        {proyectos.map((proyecto) => (
-          <TarjetaProyecto
-            key={proyecto.titulo}
-            {...proyecto}
-          />
-        ))}
-      </div>
+
+        <div className="container">
+        <div className="row g-4">
+            {proyectos.map((proyecto) => (
+            <div
+                className="col-12 col-md-6 col-lg-4"
+                key={proyecto.titulo}
+            >
+                <TarjetaProyecto {...proyecto} />
+            </div>
+            ))}
+        </div>
+        </div>
+
     </section>
   );
 }

@@ -608,3 +608,16 @@ footer p {
   outline: 2px solid #2563eb;
   outline-offset: 2px;
 }
+
+
+/* TARJETAS RESPONSIVE CON BOOTSTRAP */
+
+.proyectos-seccion .row > div {
+  display: flex;
+}
+
+.proyectos-seccion .proyecto-card {
+  width: 100%;
+  height: 100%;
+}
+
